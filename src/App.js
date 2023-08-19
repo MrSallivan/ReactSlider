@@ -1,10 +1,10 @@
-import { GradientTitle } from "./components/GradientTitle/GrsdientTitle"
-import { TextContent } from "./components/TextContent/TextContent"
+
+import { Content } from "./components/Content/Content"
 
 function App() {
   return (
     <div className="App">
-      <TextContent />
+      <Content />
     </div>
   )
 }
