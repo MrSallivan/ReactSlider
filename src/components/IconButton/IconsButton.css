@@ -1,0 +1,23 @@
+.icon-button {
+	--size: 40px;
+	min-width: var(--size);
+	height: var(--size);
+	cursor: pointer;
+}
+
+.icon-button.rev{
+	background: url("../../assets/icons/Left.svg") center / 100% 100% no-repeat;
+}
+.icon-button.rev:hover{
+	background: url("../../assets/icons/Left_active.svg") center / 100% 100% no-repeat;
+}
+.icon-button.next{
+	background: url("../../assets/icons/Right.svg") center / 100% 100% no-repeat;
+}
+.icon-button.next:hover{
+	background: url("../../assets/icons/Right_active.svg") center / 100% 100% no-repeat;
+}
+.icon-button.rev.disable,
+.icon-button.next.disable{
+	pointer-events: none;
+}
